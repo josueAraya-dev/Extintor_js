@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extintor - Fuego Clase A</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="letrero">
+    <header class="titulo">
+      <h1>EXTINTOR</h1>
+    </header>
+
+    <p class="subtitulo">USELO UNICAMENTE EN FUEGO CLASE</p>
+
+    <div class="clase">
+      <svg class="triangulo" viewBox="0 0 120 100" aria-label="Clase A">
+        <polygon points="60,4 116,96 4,96" fill="#1f7a3a"/>
+        <polygon points="60,22 100,88 20,88" fill="#fff"/>
+        <text x="60" y="84" text-anchor="middle">A</text>
+      </svg>
+
+      <div id="icono-fuego" class="icono" title="Pasa el mouse para escuchar el fuego">
+        <svg viewBox="0 0 140 110" aria-hidden="true">
+          <polygon points="18,40 62,40 56,98 24,98" fill="#fff"/>
+          <rect x="14" y="34" width="52" height="7" rx="2" fill="#fff"/>
+          <path class="llama" d="M22 34 C18 24 26 18 24 8 C32 14 30 22 34 26 C36 18 40 16 40 10 C46 18 44 26 48 30 C52 24 54 22 54 16 C60 24 60 30 58 34 Z" fill="#fff"/>
+          <path class="llama" d="M86 88 C76 76 80 62 88 54 C88 62 92 66 96 66 C94 54 100 40 108 32 C108 46 118 52 120 64 C122 58 124 56 126 52 C132 64 130 80 120 88 Z" fill="#fff"/>
+          <path d="M96 86 C92 78 96 72 100 68 C100 74 104 76 106 74 C108 70 110 66 112 64 C116 72 116 80 112 86 Z" fill="#1d4f9c"/>
+          <rect x="76" y="88" width="56" height="8" rx="4" fill="#fff" transform="rotate(-12 104 92)"/>
+          <rect x="76" y="88" width="56" height="8" rx="4" fill="#fff" transform="rotate(12 104 92)"/>
+        </svg>
+      </div>
+
+      <p class="solidos">SOLIDOS COMBUSTIBLES</p>
+      <p class="materiales">madera, papel,<br>tela, basura<br>cartones</p>
+    </div>
+
+    <section class="metodo">
+      <h2>METODO PARA UTILIZARLO</h2>
+      <ol>
+        <li>Sosténgalo en posición vertical.</li>
+        <li>Retire el seguro.</li>
+        <li>Oprima la palanca.</li>
+        <li>Dirija la descarga contra la base de la llama.</li>
+      </ol>
+    </section>
+
+    <div class="franjas" aria-hidden="true"></div>
+  </main>
+
+  <p id="aviso" class="aviso">Haz clic en cualquier parte de la página para activar el sonido 🔊</p>
+
+  <script src="index.js"></script>
+</body>
+</html>
